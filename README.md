@@ -1,7 +1,7 @@
 Provides extensions to
 [`simple_service_container`](https://pub.dev/packages/simple_service_container)
 for containers to own resources and dispose them via
-[disposable_resource_management](https://pub.dev/packages/disposable_resource_management).
+[`disposable_resource_management`](https://pub.dev/packages/disposable_resource_management).
 
 ## Set-up
 
@@ -62,4 +62,4 @@ functionality of `simple_service_container`:
  - [`flutter_simple_service_container`](https://pub.dev/packages/flutter_simple_service_container)
    : When working with flutter, this provides extension methods for scoping
    access to services and obtaining them via the `BuildContext` and watching
-   listenable services for rebuild on changes via [context_watch](https://pub.dev/packages/context_watch)
+   listenable services for rebuild on changes via [`context_watch`](https://pub.dev/packages/context_watch)
