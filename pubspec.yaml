@@ -1,6 +1,6 @@
 name: owning_simple_service_container
 description: Provides extensions to simple_service_container for containers to own resources and dispose them via disposable_resource_management.
-version: 1.0.0-dev.1
+version: 1.0.0-dev.2
 repository: https://github.com/Oliphan/DartOwningSimpleServiceContainer
 
 environment:
@@ -10,7 +10,7 @@ dependencies:
   disposable_resource_management: ^4.0.0
   flutter:
     sdk: flutter
-  simple_service_container: ^1.0.0-dev.1
+  simple_service_container: ^1.0.0-dev.2
 
 dev_dependencies:
   lints: ^6.0.0

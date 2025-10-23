@@ -22,11 +22,11 @@ class OwningServiceContainer extends ServiceContainer
   }
 
   @override
-  T get<T extends Object>() {
+  T? tryGet<T extends Object>() {
     if (isDisposed) {
       throw StateError('Cannot get services from a disposed container.');
     }
-    return super.get();
+    return super.tryGet();
   }
 
   @override
